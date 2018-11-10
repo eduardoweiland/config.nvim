@@ -1,0 +1,2 @@
+" Configure highlight
+colorscheme codedark
