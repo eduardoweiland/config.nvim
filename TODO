@@ -1,0 +1,10 @@
+[ ] Autocomplete (https://github.com/autozimu/LanguageClient-neovim)
+[ ] File tree (https://github.com/scrooloose/nerdtree)
+[ ] File finder (https://github.com/junegunn/fzf.vim)
+[ ] Linting (integrated with external tools)
+[ ] Editing configuration
+[ ] Better integration with frameworks
+    - https://github.com/sukima/vim-ember-imports
+    - https://github.com/joukevandermaas/vim-ember-hbs
+    - https://spin.atomicobject.com/2015/07/30/vim-script-ember-tests/
+    - https://github.com/josa42/ember-find-related-files
