@@ -1,5 +1,5 @@
 " Load all configuration files
-source config/colortheme.vim
-source config/ui.vim
-source config/clipboard.vim
-source config/editing.vim
+source $HOME/.config/nvim/config/colortheme.vim
+source $HOME/.config/nvim/config/ui.vim
+source $HOME/.config/nvim/config/clipboard.vim
+source $HOME/.config/nvim/config/editing.vim
