@@ -3,6 +3,7 @@ Plug 'tomasiser/vim-code-dark'        " Syntax highlight theme
 Plug 'editorconfig/editorconfig-vim'  " EditorConfig support
 Plug 'vim-airline/vim-airline'        " Statusbar
 Plug 'bling/vim-bufferline'           " Show buffers in statusbar
+Plug 'rhysd/committia.vim'            " Better editor for Git commit messages
 call plug#end()
 
 " Only load config if all plugins are installed, to avoid errors
