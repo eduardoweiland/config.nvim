@@ -16,6 +16,9 @@ set hidden
 " Don't show mode in command line (only show in statusline)
 set noshowmode
 
+" Highlight current cursor line
+set cursorline
+
 " Don't show buffer names in command line (only in statusline)
 " Related plugins: bling/vim-bufferline vim-airline/vim-airline
 let g:bufferline_echo = 0
