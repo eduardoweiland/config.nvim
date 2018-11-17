@@ -26,11 +26,3 @@ let g:bufferline_echo = 0
 " Show bufferlist in statusline
 " Related plugins: bling/vim-bufferline vim-airline/vim-airline
 let g:airline#extensions#bufferline#enabled = 1
-
-" Always show airline's tabline on top
-" Related plugins: vim-airline/vim-airline
-let g:airline#extensions#tabline#enabled = 1
-
-" Don't show buffers on tabline (already in statusline)
-" Related plugins: vim-airline/vim-airline
-let g:airline#extensions#tabline#show_buffers = 0
