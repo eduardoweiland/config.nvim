@@ -19,6 +19,12 @@ set noshowmode
 " Highlight current cursor line
 set cursorline
 
+" Command line autocomplete:
+"  - first tab will complete as much as possible
+"  - second tab will provide a list
+"  - third+ tabs will cycle through completion options
+set wildmode=longest,list,full
+
 " Don't show buffer names in command line (only in statusline)
 " Related plugins: bling/vim-bufferline vim-airline/vim-airline
 let g:bufferline_echo = 0
