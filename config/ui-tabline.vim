@@ -18,9 +18,13 @@ let g:airline#extensions#tabline#show_splits = 0
 
 " Custom tab title formatter for vim-airline
 " Format used is "{tabnumber}: {tab working dir basename}"
-function! airline#extensions#tabline#title(n)
-  return a:n . ': ' . fnamemodify(getcwd(-1, a:n), ':t')
+function s:update_tab_title()
+  let tabnr = tabpagenr()
+  let title = tabnr . ': ' . fnamemodify(getcwd(-1, tabnr), ':t')
+  call settabvar(tabpagenr(), 'title', title)
 endfunction
+
+autocmd DirChanged,VimEnter * :call s:update_tab_title()
 
 " Command to open a new tab and change it's working dir to a specified directory
 " @TODO: move commands to separate file
