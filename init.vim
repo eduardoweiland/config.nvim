@@ -4,6 +4,7 @@ Plug 'editorconfig/editorconfig-vim'  " EditorConfig support
 Plug 'vim-airline/vim-airline'        " Statusbar
 Plug 'bling/vim-bufferline'           " Show buffers in statusbar
 Plug 'rhysd/committia.vim'            " Better editor for Git commit messages
+Plug 'airblade/vim-gitgutter'         " Show file changes from Git in the sign column
 
 " Language support
 Plug 'leafgarland/typescript-vim'     " Typescript language syntax
