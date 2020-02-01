@@ -1,3 +1,5 @@
+# MOVED TO MY [dotfiles](https://github.com/eduardoweiland/dotfiles)
+
 # Neovim configuration (WIP)
 
 This is my configuration for [neovim](https://neovim.io).
